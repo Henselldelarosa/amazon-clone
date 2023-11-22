@@ -2,7 +2,7 @@
 export {default as Navigation} from './components/navigation/Navigation'
 export {default as Product} from './components/product/Product'
 export {default as Subtotal} from './components/subtotal/Subtotal'
-// export {default as } from './components//'
+export {default as CheckoutProduct} from './components/checkoutproduct/CheckoutProduct'
 // export {default as } from './components//'
 // export {default as } from './components//'
 // export {default as } from './components//'

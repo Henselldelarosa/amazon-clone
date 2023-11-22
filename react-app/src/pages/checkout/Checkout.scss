@@ -5,7 +5,6 @@
   height: max-content;
 
   &__left{
-
   }
 
   &__ad{
@@ -20,6 +19,7 @@
   }
 
   &__right{
-
+    display: flex;
+    
   }
 }

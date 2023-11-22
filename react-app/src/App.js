@@ -10,6 +10,9 @@ function App() {
       <Navigation />
         <Switch>
 
+          <Route path='/login'>
+
+          </Route>
           <Route path='/checkout'>
             <Checkout/>
           </Route>

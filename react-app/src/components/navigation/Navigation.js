@@ -29,10 +29,12 @@ const Navigation = () => {
 
 		<div className="navigation__nav">
 
+			<NavLink to='/login'>
 			<div className="navigation__option">
 				<span className="navigation__option--one">Hello Guest</span>
 				<span className="navigation__option--two">Sign In</span>
 			</div>
+			</NavLink>
 
 			<div className="navigation__option">
 				<span className="navigation__option--one">Returns</span>
