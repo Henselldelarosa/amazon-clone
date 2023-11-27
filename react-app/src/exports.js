@@ -13,7 +13,7 @@ export {default as CheckoutProduct} from './components/checkoutproduct/CheckoutP
 //pages
 export {default as Home} from './pages/home/Home'
 export {default as Checkout} from './pages/checkout/Checkout'
-// export {default as } from './pages//'
+export {default as Login} from './pages/login/Login'
 // export {default as } from './pages//'
 // export {default as } from './pages//'
 // export {default as } from './pages//'

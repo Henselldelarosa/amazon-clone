@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Navigation from "./components/navigation/Navigation";
-import { Home, Checkout } from "./exports";
+import { Home, Checkout,Login } from "./exports";
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
         <Switch>
 
           <Route path='/login'>
-
+            <Login/>
           </Route>
           <Route path='/checkout'>
             <Checkout/>
