@@ -4,9 +4,17 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import './Navigation.scss'
 import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
 import {useStateValue} from '../../context/StateProvider'
+import { auth } from '../../firebase';
 
 const Navigation = () => {
-	const [{basket}, dispatch] = useStateValue()
+	const [{basket, user}, dispatch] = useStateValue()
+
+	const handleSign = () => {
+
+		if(user){
+			auth.signOut()
+		}
+	}
 
 	return (
 		<div className='navigation'>
@@ -29,10 +37,10 @@ const Navigation = () => {
 
 		<div className="navigation__nav">
 
-			<NavLink to='/login'>
-			<div className="navigation__option">
-				<span className="navigation__option--one">Hello Guest</span>
-				<span className="navigation__option--two">Sign In</span>
+			<NavLink to={!user && '/login'}>
+			<div onClick={handleSign} className="navigation__option">
+				<span className="navigation__option--one">Hello {user? user.email : 'Hello Guest'}</span>
+				<span className="navigation__option--two">{user ? "Sign Out" : "Sign In"}</span>
 			</div>
 			</NavLink>
 

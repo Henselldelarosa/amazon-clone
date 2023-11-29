@@ -1,17 +1,49 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Login.scss'
 
+import { auth} from '../../firebase'
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
+import {  createUserWithEmailAndPassword, signInWithEmailAndPassword  } from 'firebase/auth'
+
 const Login = () => {
+  const history = useHistory()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  const handleSignin = (e) => {
+  const handleSignin = async (e) => {
     e.preventDefault()
+
+
+    await signInWithEmailAndPassword(auth, email, password)
+    .then((userCredential) => {
+      const user = userCredential.user
+      console.log(user, 'user');
+      history.push('/')
+    })
+    .catch(error => alert(error.message))
   }
 
-  const handleRegister = (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault()
-  }
+
+
+    await createUserWithEmailAndPassword(auth, email, password)
+    .then((userCredential) => {
+        // Signed in
+        const user = userCredential.user;
+        console.log(user);
+        history.push('/')
+        // ...
+    })
+    .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log(errorCode, errorMessage);
+        // ..
+    });
+
+
+}
 
   return (
     <div className='login'>
@@ -51,7 +83,7 @@ const Login = () => {
           information.
         </p>
 
-        <button className='login__createButton'>Create your Amazon Account</button>
+        <button onClick={handleRegister} className='login__createButton'>Create your Amazon Account</button>
       </div>
     </div>
   )
