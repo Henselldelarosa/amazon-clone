@@ -39,7 +39,7 @@ const Navigation = () => {
 
 			<NavLink to={!user && '/login'}>
 			<div onClick={handleSign} className="navigation__option">
-				<span className="navigation__option--one">Hello {user? user.email : 'Hello Guest'}</span>
+				<span className="navigation__option--one"> {user? `Hello ${user?.email}` : 'Hello Guest'}</span>
 				<span className="navigation__option--two">{user ? "Sign Out" : "Sign In"}</span>
 			</div>
 			</NavLink>
