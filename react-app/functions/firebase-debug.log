@@ -1,0 +1,1518 @@
+[debug] [2023-12-05T07:53:19.703Z] ----------------------------------------------------------------------
+[debug] [2023-12-05T07:53:19.705Z] Command:       /home/henseldelarosa/.nvm/versions/node/v16.17.0/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2023-12-05T07:53:19.706Z] CLI Version:   12.9.1
+[debug] [2023-12-05T07:53:19.706Z] Platform:      linux
+[debug] [2023-12-05T07:53:19.706Z] Node Version:  v16.17.0
+[debug] [2023-12-05T07:53:19.707Z] Time:          Tue Dec 05 2023 02:53:19 GMT-0500 (Eastern Standard Time)
+[debug] [2023-12-05T07:53:19.707Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-05T07:53:19.837Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-05T07:53:19.838Z] > authorizing via signed-in user (hensell1000@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-12-05T07:53:19.852Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-12-05T07:53:19.877Z] [hub] writing locator at /tmp/hub-clone-4703d.json
+[debug] [2023-12-05T07:53:19.902Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-12-05T07:53:19.912Z] defaultcredentials: writing to file /home/henseldelarosa/.config/firebase/hensell1000_gmail_com_application_default_credentials.json
+[debug] [2023-12-05T07:53:19.916Z] Setting GAC to /home/henseldelarosa/.config/firebase/hensell1000_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/henseldelarosa/.config/firebase/hensell1000_gmail_com_application_default_credentials.json"}}
+[debug] [2023-12-05T07:53:19.920Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-4703d/adminSdkConfig [none]
+[debug] [2023-12-05T07:53:20.449Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-4703d/adminSdkConfig 200
+[debug] [2023-12-05T07:53:20.450Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-4703d/adminSdkConfig {"projectId":"clone-4703d","storageBucket":"clone-4703d.appspot.com"}
+[debug] [2023-12-05T07:53:20.500Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-4703d/sites 
+[debug] [2023-12-05T07:53:21.050Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-4703d/sites 200
+[debug] [2023-12-05T07:53:21.051Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-4703d/sites {"sites":[{"name":"projects/clone-4703d/sites/clone-4703d","defaultUrl":"https://clone-4703d.web.app","appId":"1:373477589159:web:25d1849e340f9379cd9b82","type":"DEFAULT_SITE"}]}
+[debug] [2023-12-05T07:53:21.052Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-4703d/webApps/1:373477589159:web:25d1849e340f9379cd9b82/config [none]
+[debug] [2023-12-05T07:53:21.572Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-4703d/webApps/1:373477589159:web:25d1849e340f9379cd9b82/config 200
+[debug] [2023-12-05T07:53:21.573Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-4703d/webApps/1:373477589159:web:25d1849e340f9379cd9b82/config {"projectId":"clone-4703d","appId":"1:373477589159:web:25d1849e340f9379cd9b82","storageBucket":"clone-4703d.appspot.com","apiKey":"AIzaSyDR2107kT9W8Qg3tQDMvaJPFcMoSSC7DCk","authDomain":"clone-4703d.firebaseapp.com","messagingSenderId":"373477589159"}
+[debug] [2023-12-05T07:53:21.585Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-4703d [none]
+[debug] [2023-12-05T07:53:21.981Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-4703d 200
+[debug] [2023-12-05T07:53:21.982Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-4703d {"projectId":"clone-4703d","projectNumber":"373477589159","displayName":"amazon-clone","name":"projects/clone-4703d","resources":{"hostingSite":"clone-4703d"},"state":"ACTIVE","etag":"1_5d0cb7b1-3360-4525-a6c1-49332a4ce7ed"}
+[info] i  hosting[clone-4703d]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting[clone-4703d]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-12-05T07:53:22.018Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-12-05T07:53:22.019Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-12-05T07:53:22.020Z] Starting Emulator UI with command {"binary":"node","args":["/home/henseldelarosa/.cache/firebase/emulators/ui-v1.11.7/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/henseldelarosa/.cache/firebase/emulators/ui-v1.11.7/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-12-05T07:53:22.198Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[info] i  functions: Watching "/home/henseldelarosa/clones/amazon-clone/react-app/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/henseldelarosa/clones/amazon-clone/react-app/functions\" for Cloud Functions..."}}
+[debug] [2023-12-05T07:53:22.333Z] Validating nodejs source
+[debug] [2023-12-05T07:53:23.587Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:53:23.588Z] Building nodejs source
+[debug] [2023-12-05T07:53:23.589Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:53:23.593Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:53:23.600Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8518
+
+[debug] [2023-12-05T07:53:24.135Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] ✔  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/clone-4703d/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/clone-4703d/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-12-05T07:55:24.874Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:55:25.877Z] Validating nodejs source
+[debug] [2023-12-05T07:55:26.542Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:55:26.542Z] Building nodejs source
+[debug] [2023-12-05T07:55:26.543Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:55:26.548Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:55:26.554Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8650
+
+[debug] [2023-12-05T07:55:27.171Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:55:29.380Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:55:30.383Z] Validating nodejs source
+[debug] [2023-12-05T07:55:31.143Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:55:31.144Z] Building nodejs source
+[debug] [2023-12-05T07:55:31.144Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:55:31.148Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:55:31.151Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8212
+
+[debug] [2023-12-05T07:55:31.718Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:55:36.989Z] [work-queue] {"queuedWork":["/clone-4703d/us-central1/api-2023-12-05T07:55:36.989Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-12-05T07:55:36.990Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-4703d/us-central1/api-2023-12-05T07:55:36.989Z"],"workRunningCount":1}
+[debug] [2023-12-05T07:55:36.991Z] Accepted request GET /clone-4703d/us-central1/api --> us-central1-api
+[debug] [2023-12-05T07:55:36.997Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-12-05T07:55:37.000Z] [functions] Got req.url=/clone-4703d/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-4703d/us-central1/api, mapping to path=/"}}
+[debug] [2023-12-05T07:55:37.018Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-12-05T07:55:37.019Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-12-05T07:55:38.095Z] [runtime-status] [3021] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-12-05T07:55:38.096Z] [runtime-status] [3021] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T07:55:38.097Z] [runtime-status] [3021] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-12-05T07:55:38.098Z] [runtime-status] [3021] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T07:55:38.367Z] [runtime-status] [3021] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-12-05T07:55:38.368Z] [runtime-status] [3021] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2023-12-05T07:55:38.370Z] [runtime-status] [3021] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T07:55:38.371Z] [runtime-status] [3021] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-12-05T07:55:38.373Z] [runtime-status] [3021] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T07:55:38.374Z] [runtime-status] [3021] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2023-12-05T07:55:38.507Z] [runtime-status] [3021] Functions runtime initialized. {"cwd":"/home/henseldelarosa/clones/amazon-clone/react-app/functions","node_version":"16.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Functions runtime initialized. {\"cwd\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions\",\"node_version\":\"16.17.0\"}"}}
+[debug] [2023-12-05T07:55:38.508Z] [runtime-status] [3021] Listening to port: /tmp/fire_emu_43f2703065240820.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3021] Listening to port: /tmp/fire_emu_43f2703065240820.sock"}}
+[debug] [2023-12-05T07:55:38.559Z] [worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: IDLE"}}
+[debug] [2023-12-05T07:55:38.561Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-12-05T07:55:38.563Z] [worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: BUSY"}}
+[debug] [2023-12-05T07:55:38.590Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 27.706425ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 27.706425ms"}}
+[debug] [2023-12-05T07:55:38.593Z] [worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: IDLE"}}
+[debug] [2023-12-05T07:55:38.593Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-12-05T07:55:38.594Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-12-05T07:55:38.595Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-12-05T07:55:38.682Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2023-12-05T07:57:06.874Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:57:07.876Z] Validating nodejs source
+[debug] [2023-12-05T07:57:08.608Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:57:08.609Z] Building nodejs source
+[debug] [2023-12-05T07:57:08.609Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:57:08.611Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:57:08.615Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8505
+
+[debug] [2023-12-05T07:57:09.117Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:57:09.132Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2023-12-05T07:57:09.132Z] [worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: FINISHING"}}
+[debug] [2023-12-05T07:57:09.139Z] [worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: exited"}}
+[debug] [2023-12-05T07:57:09.139Z] [worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-d08569f8-3bc9-4d4c-8e6c-bbef4ed49d7b]: FINISHED"}}
+[debug] [2023-12-05T07:57:10.584Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:57:11.585Z] Validating nodejs source
+[debug] [2023-12-05T07:57:12.335Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:57:12.336Z] Building nodejs source
+[debug] [2023-12-05T07:57:12.336Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:57:12.337Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:57:12.339Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8859
+
+[debug] [2023-12-05T07:57:12.891Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:57:15.097Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:57:16.099Z] Validating nodejs source
+[debug] [2023-12-05T07:57:16.885Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:57:16.886Z] Building nodejs source
+[debug] [2023-12-05T07:57:16.886Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:57:16.892Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:57:16.893Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8282
+
+[debug] [2023-12-05T07:57:17.388Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:57:18.906Z] [work-queue] {"queuedWork":["/clone-4703d/us-central1/api/hello-2023-12-05T07:57:18.906Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-12-05T07:57:18.907Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-4703d/us-central1/api/hello-2023-12-05T07:57:18.906Z"],"workRunningCount":1}
+[debug] [2023-12-05T07:57:18.907Z] Accepted request GET /clone-4703d/us-central1/api/hello --> us-central1-api
+[debug] [2023-12-05T07:57:18.913Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-12-05T07:57:18.914Z] [functions] Got req.url=/clone-4703d/us-central1/api/hello, mapping to path=/hello {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-4703d/us-central1/api/hello, mapping to path=/hello"}}
+[debug] [2023-12-05T07:57:18.914Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2023-12-05T07:57:18.927Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-12-05T07:57:18.927Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-12-05T07:57:19.963Z] [runtime-status] [3307] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-12-05T07:57:19.970Z] [runtime-status] [3307] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T07:57:19.971Z] [runtime-status] [3307] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-12-05T07:57:19.973Z] [runtime-status] [3307] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T07:57:20.206Z] [runtime-status] [3307] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-12-05T07:57:20.207Z] [runtime-status] [3307] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2023-12-05T07:57:20.208Z] [runtime-status] [3307] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T07:57:20.210Z] [runtime-status] [3307] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-12-05T07:57:20.212Z] [runtime-status] [3307] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T07:57:20.213Z] [runtime-status] [3307] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2023-12-05T07:57:20.391Z] [runtime-status] [3307] Functions runtime initialized. {"cwd":"/home/henseldelarosa/clones/amazon-clone/react-app/functions","node_version":"16.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Functions runtime initialized. {\"cwd\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions\",\"node_version\":\"16.17.0\"}"}}
+[debug] [2023-12-05T07:57:20.393Z] [runtime-status] [3307] Listening to port: /tmp/fire_emu_8b75c6f937b84819.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3307] Listening to port: /tmp/fire_emu_8b75c6f937b84819.sock"}}
+[debug] [2023-12-05T07:57:20.465Z] [worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: IDLE"}}
+[debug] [2023-12-05T07:57:20.466Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-12-05T07:57:20.468Z] [worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: BUSY"}}
+[debug] [2023-12-05T07:57:20.496Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 27.922441ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 27.922441ms"}}
+[debug] [2023-12-05T07:57:20.497Z] [worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: IDLE"}}
+[debug] [2023-12-05T07:57:20.497Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-12-05T07:57:20.497Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-12-05T07:57:20.497Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-12-05T07:57:29.148Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:57:30.150Z] Validating nodejs source
+[debug] [2023-12-05T07:57:30.902Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:57:30.902Z] Building nodejs source
+[debug] [2023-12-05T07:57:30.902Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:57:30.904Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:57:30.905Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8758
+
+[debug] [2023-12-05T07:57:31.486Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:57:31.507Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2023-12-05T07:57:31.507Z] [worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: FINISHING"}}
+[debug] [2023-12-05T07:57:31.517Z] [worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: exited"}}
+[debug] [2023-12-05T07:57:31.517Z] [worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e9bc4757-ee3f-48ae-a6d9-743b82e12e8f]: FINISHED"}}
+[debug] [2023-12-05T07:57:35.765Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:57:36.768Z] Validating nodejs source
+[debug] [2023-12-05T07:57:37.588Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:57:37.588Z] Building nodejs source
+[debug] [2023-12-05T07:57:37.588Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:57:37.592Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:57:37.594Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8052
+
+[debug] [2023-12-05T07:57:38.289Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:57:40.904Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:57:41.907Z] Validating nodejs source
+[debug] [2023-12-05T07:57:42.664Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:57:42.664Z] Building nodejs source
+[debug] [2023-12-05T07:57:42.664Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:57:42.668Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:57:42.670Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-12-05T07:57:42.684Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[info] Serving at port 8460
+
+[debug] [2023-12-05T07:57:43.237Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:57:43.686Z] Validating nodejs source
+[debug] [2023-12-05T07:57:44.290Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:57:44.291Z] Building nodejs source
+[debug] [2023-12-05T07:57:44.291Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:57:44.292Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:57:44.294Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8797
+
+[debug] [2023-12-05T07:57:44.769Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:58:02.050Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:58:03.053Z] Validating nodejs source
+[debug] [2023-12-05T07:58:03.939Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:58:03.940Z] Building nodejs source
+[debug] [2023-12-05T07:58:03.940Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:58:03.942Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:58:03.943Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8435
+
+[debug] [2023-12-05T07:58:04.556Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:58:05.282Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:58:06.286Z] Validating nodejs source
+[debug] [2023-12-05T07:58:07.122Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:58:07.123Z] Building nodejs source
+[debug] [2023-12-05T07:58:07.123Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:58:07.125Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:58:07.127Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8527
+
+[debug] [2023-12-05T07:58:07.688Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:58:08.845Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:58:09.846Z] Validating nodejs source
+[debug] [2023-12-05T07:58:10.597Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:58:10.597Z] Building nodejs source
+[debug] [2023-12-05T07:58:10.597Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:58:10.599Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:58:10.602Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8397
+
+[debug] [2023-12-05T07:58:11.115Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:58:54.482Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:58:55.485Z] Validating nodejs source
+[debug] [2023-12-05T07:58:56.616Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:58:56.617Z] Building nodejs source
+[debug] [2023-12-05T07:58:56.617Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:58:56.622Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:58:56.625Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8265
+
+[debug] [2023-12-05T07:58:57.298Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T07:59:01.761Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:59:02.762Z] Validating nodejs source
+[debug] [2023-12-05T07:59:03.989Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:59:03.990Z] Building nodejs source
+[debug] [2023-12-05T07:59:03.990Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:59:03.992Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:59:03.995Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-12-05T07:59:04.071Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:59:04.416Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[info] Serving at port 8216
+
+[error] ReferenceError: async is not defined
+    at Object.<anonymous> (/home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:40:16)
+    at loadStack (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:93:23)
+    at /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js:56:56
+
+[debug] [2023-12-05T07:59:05.032Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: async is not defined
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-12-05T07:59:05.419Z] Validating nodejs source
+[debug] [2023-12-05T07:59:06.657Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:59:06.657Z] Building nodejs source
+[debug] [2023-12-05T07:59:06.658Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:59:06.663Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:59:06.666Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8441
+
+[error] ReferenceError: async is not defined
+    at Object.<anonymous> (/home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:40:16)
+    at loadStack (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:93:23)
+    at /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js:56:56
+
+[debug] [2023-12-05T07:59:07.684Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: async is not defined
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-12-05T07:59:11.412Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:59:12.414Z] Validating nodejs source
+[debug] [2023-12-05T07:59:13.295Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:59:13.296Z] Building nodejs source
+[debug] [2023-12-05T07:59:13.296Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:59:13.298Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:59:13.299Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-12-05T07:59:13.310Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[info] Serving at port 8775
+
+[error] ReferenceError: async is not defined
+    at Object.<anonymous> (/home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:40:16)
+    at loadStack (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:93:23)
+    at /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js:56:56
+
+[debug] [2023-12-05T07:59:13.928Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: async is not defined
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-12-05T07:59:14.311Z] Validating nodejs source
+[debug] [2023-12-05T07:59:15.772Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:59:15.773Z] Building nodejs source
+[debug] [2023-12-05T07:59:15.773Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:59:15.776Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:59:15.777Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-12-05T07:59:15.792Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[info] Serving at port 8522
+
+[error] ReferenceError: async is not defined
+    at Object.<anonymous> (/home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:40:16)
+    at loadStack (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:93:23)
+    at /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js:56:56
+
+[debug] [2023-12-05T07:59:16.629Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: async is not defined
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-12-05T07:59:16.793Z] Validating nodejs source
+[debug] [2023-12-05T07:59:17.734Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:59:17.735Z] Building nodejs source
+[debug] [2023-12-05T07:59:17.735Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:59:17.736Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:59:17.737Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-12-05T07:59:17.916Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[info] Serving at port 8933
+
+[error] ReferenceError: async is not defined
+    at Object.<anonymous> (/home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:40:16)
+    at loadStack (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:93:23)
+    at /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js:56:56
+
+[debug] [2023-12-05T07:59:18.745Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: async is not defined
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-12-05T07:59:18.918Z] Validating nodejs source
+[debug] [2023-12-05T07:59:19.769Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:59:19.770Z] Building nodejs source
+[debug] [2023-12-05T07:59:19.770Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:59:19.774Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:59:19.776Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8995
+
+[error] ReferenceError: async is not defined
+    at Object.<anonymous> (/home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:40:16)
+    at loadStack (/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/runtime/loader.js:93:23)
+    at /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js:56:56
+
+[debug] [2023-12-05T07:59:20.599Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: async is not defined
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-12-05T07:59:21.674Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T07:59:22.676Z] Validating nodejs source
+[debug] [2023-12-05T07:59:23.635Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T07:59:23.635Z] Building nodejs source
+[debug] [2023-12-05T07:59:23.636Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T07:59:23.638Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T07:59:23.641Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8162
+
+[debug] [2023-12-05T07:59:24.280Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:02:56.911Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:02:58.109Z] Validating nodejs source
+[debug] [2023-12-05T08:02:59.807Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:02:59.813Z] Building nodejs source
+[debug] [2023-12-05T08:02:59.816Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:02:59.915Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:02:59.963Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8558
+
+[debug] [2023-12-05T08:03:01.139Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:03:07.366Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:03:08.369Z] Validating nodejs source
+[debug] [2023-12-05T08:03:09.062Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:03:09.083Z] Building nodejs source
+[debug] [2023-12-05T08:03:09.083Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:03:09.086Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:03:09.093Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8931
+
+[debug] [2023-12-05T08:03:09.567Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:03:22.935Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:03:23.936Z] Validating nodejs source
+[debug] [2023-12-05T08:03:25.220Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:03:25.220Z] Building nodejs source
+[debug] [2023-12-05T08:03:25.220Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:03:25.222Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:03:25.223Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8430
+
+[debug] [2023-12-05T08:03:25.705Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:03:28.517Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:03:29.518Z] Validating nodejs source
+[debug] [2023-12-05T08:03:30.221Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:03:30.221Z] Building nodejs source
+[debug] [2023-12-05T08:03:30.222Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:03:30.223Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:03:30.240Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8358
+
+[debug] [2023-12-05T08:03:31.053Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:03:32.012Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:03:33.013Z] Validating nodejs source
+[debug] [2023-12-05T08:03:33.756Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:03:33.756Z] Building nodejs source
+[debug] [2023-12-05T08:03:33.756Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:03:33.758Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:03:33.761Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8022
+
+[debug] [2023-12-05T08:03:34.309Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:03:34.410Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:03:35.310Z] Validating nodejs source
+[debug] [2023-12-05T08:03:36.002Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:03:36.002Z] Building nodejs source
+[debug] [2023-12-05T08:03:36.002Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:03:36.004Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:03:36.007Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8321
+
+[debug] [2023-12-05T08:03:36.610Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:03:46.466Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:03:47.469Z] Validating nodejs source
+[debug] [2023-12-05T08:03:48.192Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:03:48.192Z] Building nodejs source
+[debug] [2023-12-05T08:03:48.198Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:03:48.202Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:03:48.203Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8721
+
+[debug] [2023-12-05T08:03:48.674Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:03:51.469Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:03:52.470Z] Validating nodejs source
+[debug] [2023-12-05T08:03:53.272Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:03:53.272Z] Building nodejs source
+[debug] [2023-12-05T08:03:53.272Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:03:53.274Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:03:53.276Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8563
+
+[debug] [2023-12-05T08:03:53.841Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:04:24.231Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:04:25.234Z] Validating nodejs source
+[debug] [2023-12-05T08:04:26.354Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:04:26.354Z] Building nodejs source
+[debug] [2023-12-05T08:04:26.355Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:04:26.356Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:04:26.358Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8158
+
+[debug] [2023-12-05T08:04:27.066Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:04:30.971Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:04:31.973Z] Validating nodejs source
+[debug] [2023-12-05T08:04:32.663Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:04:32.664Z] Building nodejs source
+[debug] [2023-12-05T08:04:32.664Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:04:32.665Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:04:32.687Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8439
+
+[debug] [2023-12-05T08:04:33.407Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:04:35.739Z] [work-queue] {"queuedWork":["/clone-4703d/us-central1/api-2023-12-05T08:04:35.738Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-12-05T08:04:35.739Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-4703d/us-central1/api-2023-12-05T08:04:35.738Z"],"workRunningCount":1}
+[debug] [2023-12-05T08:04:35.741Z] Accepted request GET /clone-4703d/us-central1/api --> us-central1-api
+[debug] [2023-12-05T08:04:35.761Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-12-05T08:04:35.764Z] [functions] Got req.url=/clone-4703d/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-4703d/us-central1/api, mapping to path=/"}}
+[debug] [2023-12-05T08:04:35.766Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2023-12-05T08:04:35.786Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-12-05T08:04:35.787Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-12-05T08:04:38.781Z] [runtime-status] [5529] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-12-05T08:04:38.782Z] [runtime-status] [5529] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T08:04:38.784Z] [runtime-status] [5529] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-12-05T08:04:38.784Z] [runtime-status] [5529] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T08:04:39.101Z] [runtime-status] [5529] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-12-05T08:04:39.102Z] [runtime-status] [5529] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2023-12-05T08:04:39.103Z] [runtime-status] [5529] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T08:04:39.107Z] [runtime-status] [5529] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-12-05T08:04:39.113Z] [runtime-status] [5529] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-12-05T08:04:39.114Z] [runtime-status] [5529] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2023-12-05T08:04:39.278Z] [runtime-status] [5529] Functions runtime initialized. {"cwd":"/home/henseldelarosa/clones/amazon-clone/react-app/functions","node_version":"16.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Functions runtime initialized. {\"cwd\":\"/home/henseldelarosa/clones/amazon-clone/react-app/functions\",\"node_version\":\"16.17.0\"}"}}
+[debug] [2023-12-05T08:04:39.279Z] [runtime-status] [5529] Listening to port: /tmp/fire_emu_66423f2faae57f25.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5529] Listening to port: /tmp/fire_emu_66423f2faae57f25.sock"}}
+[debug] [2023-12-05T08:04:39.353Z] [worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: IDLE"}}
+[debug] [2023-12-05T08:04:39.353Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-12-05T08:04:39.358Z] [worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: BUSY"}}
+[debug] [2023-12-05T08:04:39.377Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 19.299393ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 19.299393ms"}}
+[debug] [2023-12-05T08:04:39.378Z] [worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: IDLE"}}
+[debug] [2023-12-05T08:04:39.379Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-12-05T08:04:39.379Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-12-05T08:04:39.379Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-12-05T08:04:53.263Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:04:54.264Z] Validating nodejs source
+[debug] [2023-12-05T08:04:54.963Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:04:54.964Z] Building nodejs source
+[debug] [2023-12-05T08:04:54.964Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:04:54.966Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:04:54.967Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8918
+
+[debug] [2023-12-05T08:04:55.481Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-12-05T08:04:55.510Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2023-12-05T08:04:55.510Z] [worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: FINISHING"}}
+[debug] [2023-12-05T08:04:55.520Z] [worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: exited"}}
+[debug] [2023-12-05T08:04:55.520Z] [worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e3fd4529-8499-43a9-bafb-01d01ea83b95]: FINISHED"}}
+[debug] [2023-12-05T08:04:56.915Z] File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/henseldelarosa/clones/amazon-clone/react-app/functions/index.js changed, reloading triggers"}}
+[debug] [2023-12-05T08:04:57.916Z] Validating nodejs source
+[debug] [2023-12-05T08:04:58.697Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-05T08:04:58.697Z] Building nodejs source
+[debug] [2023-12-05T08:04:58.697Z] Failed to find version of module node: reached end of search path /home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-12-05T08:04:58.699Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-05T08:04:58.700Z] Found firebase-functions binary at '/home/henseldelarosa/clones/amazon-clone/react-app/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8861
+
+[debug] [2023-12-05T08:04:59.209Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
