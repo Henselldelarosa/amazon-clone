@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import Navigation from "./components/navigation/Navigation";
 import { Home, Checkout,Login, Payment } from "./exports";
-
 import {auth} from './firebase'
 import { useStateValue } from "./context/StateProvider";
+
 
 function App() {
   const [{}, dispatch] = useStateValue()
