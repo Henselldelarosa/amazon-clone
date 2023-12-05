@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import Navigation from "./components/navigation/Navigation";
-import { Home, Checkout,Login } from "./exports";
+import { Home, Checkout,Login, Payment } from "./exports";
 
 import {auth} from './firebase'
 import { useStateValue } from "./context/StateProvider";
@@ -27,7 +27,7 @@ function App() {
       }
     })
   },[])
-  
+
   return (
     <>
       <Navigation />
@@ -38,6 +38,10 @@ function App() {
           </Route>
           <Route path='/checkout'>
             <Checkout/>
+          </Route>
+
+          <Route path='/payment'>
+            <Payment/>
           </Route>
 
           <Route path='/'>

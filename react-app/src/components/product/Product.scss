@@ -10,6 +10,9 @@
   min-width: 100px;
   background-color: white;
   z-index: 1;
+  &:hover{
+    scale: 1.05;
+  }
 
   img{
     max-height: 200px;
@@ -25,6 +28,11 @@
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
     cursor: pointer;
+
+    &:hover{
+      color: #f0c14b;
+      background-color: white;
+    }
   }
 
   &__info{
