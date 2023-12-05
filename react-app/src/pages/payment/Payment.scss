@@ -22,11 +22,8 @@
     flex: .2;
   }
 
-  &__items{
+  &__items, &__address, &__detail{
     flex: .8;
   }
 
-  &__address{
-    flex: .8;
-  }
 }
