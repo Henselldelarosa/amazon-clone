@@ -9,3 +9,10 @@ firebase init
 <!-- where it says public change to 'build' -->
 <!-- single page application 'yes' -->
 npm run build
+
+next
+npm firebase init
+choose the function
+choose the language
+yes
+yes
